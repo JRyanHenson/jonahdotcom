@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How This Site Works · Jonah's World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>🛠️ How This Site Works</h1>
+    <p class="tagline">The story of how jonahdotcom.com was built!</p>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="#html">HTML</a>
+    <a href="#css">CSS</a>
+    <a href="#javascript">JavaScript</a>
+    <a href="#internet">The Internet</a>
+  </nav>
+
+  <!-- INTRO -->
+  <section id="intro">
+    <h2>Wait... how does a website even work? 🤔</h2>
+    <div class="card">
+      <p>Great question! Think of building a website like building a LEGO house.</p>
+      <br />
+      <p>You need three things:</p>
+      <ul>
+        <li>🧱 <strong>HTML</strong> — the LEGO bricks (the structure)</li>
+        <li>🎨 <strong>CSS</strong> — the paint and decorations (how it looks)</li>
+        <li>⚡ <strong>JavaScript</strong> — the motor that makes things move (how it acts)</li>
+      </ul>
+      <br />
+      <p>Every website you've ever visited — YouTube, Minecraft.net, NFL.com — is made of these same three things!</p>
+    </div>
+  </section>
+
+  <!-- HTML -->
+  <section id="html">
+    <h2>🧱 HTML — The Bricks</h2>
+    <div class="card">
+      <p>HTML stands for <strong>HyperText Markup Language</strong>. That's a big fancy name, but it just means: <em>"instructions for building a webpage."</em></p>
+      <br />
+      <p>HTML uses things called <strong>tags</strong>. Tags are like labels that tell the browser what each thing is.</p>
+      <br />
+      <p>For example, this site uses tags like:</p>
+      <ul>
+        <li>📦 <code>&lt;section&gt;</code> — a box that holds a chunk of the page</li>
+        <li>✏️ <code>&lt;h1&gt;</code> — a big title (h stands for heading)</li>
+        <li>📝 <code>&lt;p&gt;</code> — a paragraph of text (p stands for paragraph)</li>
+        <li>🔗 <code>&lt;a&gt;</code> — a link you can click (a stands for anchor)</li>
+        <li>🔘 <code>&lt;button&gt;</code> — a button!</li>
+      </ul>
+      <br />
+      <p>Every tag has an opening part and a closing part. Like a sandwich 🥪:</p>
+      <br />
+      <p style="font-family: 'Courier New', monospace; background: #0a1a00; padding: 12px; border-radius: 8px; color: #c8f0a0;">
+        &lt;p&gt; Hi, I'm Jonah! &lt;/p&gt;
+      </p>
+      <br />
+      <p>The <code>&lt;p&gt;</code> is the top bread, the text is the filling, and <code>&lt;/p&gt;</code> is the bottom bread. The slash ( / ) means "end of tag."</p>
+    </div>
+  </section>
+
+  <!-- CSS -->
+  <section id="css">
+    <h2>🎨 CSS — The Paint</h2>
+    <div class="card">
+      <p>CSS stands for <strong>Cascading Style Sheets</strong>. It's the code that makes everything look cool instead of plain and boring.</p>
+      <br />
+      <p>Without CSS, this site would just be white with black text — like a printout from 1995.</p>
+      <br />
+      <p>CSS is what gives this site:</p>
+      <ul>
+        <li>🌑 The dark background color</li>
+        <li>🟢 The green Minecraft-style header</li>
+        <li>🔴 The red buttons and titles</li>
+        <li>📦 The rounded cards that hold each section</li>
+        <li>✨ The hover effects when you move your mouse over links</li>
+      </ul>
+      <br />
+      <p>CSS works by saying <em>"find this thing, and make it look like this."</em> For example:</p>
+      <br />
+      <p style="font-family: 'Courier New', monospace; background: #0a1a00; padding: 12px; border-radius: 8px; color: #c8f0a0;">
+        button {<br />
+        &nbsp;&nbsp;background: red;<br />
+        &nbsp;&nbsp;color: white;<br />
+        }
+      </p>
+      <br />
+      <p>That tells the browser: <em>"every button should have a red background and white text."</em></p>
+    </div>
+  </section>
+
+  <!-- JAVASCRIPT -->
+  <section id="javascript">
+    <h2>⚡ JavaScript — The Motor</h2>
+    <div class="card">
+      <p>JavaScript is what makes a website <em>do things</em>. HTML and CSS just sit there — JavaScript reacts when you click, type, or move your mouse.</p>
+      <br />
+      <p>On this site, JavaScript powers the <strong>football facts button</strong> on the home page. Here's how it works:</p>
+      <ul>
+        <li>1️⃣ A list of football facts is stored in the code</li>
+        <li>2️⃣ When you click the button, JavaScript picks a random one</li>
+        <li>3️⃣ It shows the fact on the screen</li>
+      </ul>
+      <br />
+      <p>"Random" in code is like rolling a dice 🎲 — the computer picks a number and uses it to choose a fact from the list.</p>
+      <br />
+      <p>JavaScript can also do math, remember things while you're on the page, and talk to other computers on the internet. Pretty powerful!</p>
+    </div>
+  </section>
+
+  <!-- THE INTERNET -->
+  <section id="internet">
+    <h2>🌐 How Does It Get on the Internet?</h2>
+    <div class="card">
+      <p>So we have the code — but how does someone in another state visit jonahdotcom.com?</p>
+      <br />
+      <p>It takes three steps:</p>
+      <br />
+
+      <p><strong>Step 1 — GitHub 🐙</strong></p>
+      <p>The code lives on a website called <strong>GitHub</strong>. Think of GitHub like a super-powered save file for code. Every time we make a change and "push" it, GitHub saves the new version. It keeps every old version too, so we can never mess up permanently!</p>
+      <br />
+
+      <p><strong>Step 2 — GitHub Pages 📄</strong></p>
+      <p>GitHub has a free feature called <strong>GitHub Pages</strong> that takes our code and puts it on the internet automatically. It's like GitHub saying: <em>"I'll keep your LEGO build on display so everyone can see it."</em></p>
+      <br />
+
+      <p><strong>Step 3 — The Domain 🏠</strong></p>
+      <p>A domain is your address on the internet. Without an address, no one knows where to find you! We bought <strong>jonahdotcom.com</strong> so that when anyone types that in, their browser knows exactly where to go.</p>
+      <br />
+
+      <p>When you type <strong>jonahdotcom.com</strong> into a browser, here's what happens in about half a second:</p>
+      <ul>
+        <li>🔍 Your browser asks: "Where is jonahdotcom.com?"</li>
+        <li>📡 A server called DNS looks up the address (like a phone book for the internet)</li>
+        <li>🚀 Your browser zooms to GitHub Pages and grabs the files</li>
+        <li>🖥️ Your browser reads the HTML, CSS, and JS and draws the page on your screen</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- WHO BUILT IT -->
+  <section id="built-by">
+    <h2>👨‍💻 Who Built This?</h2>
+    <div class="card">
+      <p>This site was built by <strong>Jonah and his dad</strong> as a fun project to learn how websites work.</p>
+      <br />
+      <p>It was built using:</p>
+      <ul>
+        <li>💻 A code editor to write the HTML, CSS, and JavaScript</li>
+        <li>🐙 GitHub to save and share the code</li>
+        <li>📄 GitHub Pages to put it on the internet for free</li>
+        <li>🌐 Cloudflare to connect the jonahdotcom.com address</li>
+      </ul>
+      <br />
+      <p>Total cost to build: about <strong>$10 a year</strong> — just for the domain name. Everything else was free! 🎉</p>
+      <br />
+      <p style="color: #c8f0a0; font-style: italic;">If Jonah can build a website at 9 years old, so can you. 🚀</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Made by Jonah 🏈⛏️ · jonahdotcom.com</p>
+  </footer>
+
+</body>
+</html>
